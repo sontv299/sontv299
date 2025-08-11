@@ -1,89 +1,83 @@
-<!-- Banner: bạn có thể thay ảnh cover của riêng bạn -->
+<!-- Banner: you can replace with your own cover image -->
 <h1 align="center">👋 Hi, I'm SONTV299 — Mobile Developer (iOS • Android)</h1>
 <p align="center">
-  I build fast, reliable mobile apps end‑to‑end: Flutter • React Native • Kotlin • Swift • TypeScript
+  I build fast, reliable mobile apps end-to-end: Flutter • React Native • Kotlin • Swift • TypeScript
 </p>
 
 <p align="center">
-  <!-- 👉 TODO: đổi link -->
-  <a href="mailto:your.email@example.com">📧 Email</a> •
-  <a href="https://www.linkedin.com/in/your-linkedin">🔗 LinkedIn</a> •
-  <a href="https://your-portfolio.example.com">🌐 Portfolio</a>
+  <a href="mailto:sontv299@gmail.com">📧 Email</a> •
+  <a href="https://www.linkedin.com/in/sontv299">🔗 LinkedIn</a> •
 </p>
 
 ---
 
-## 🚀 Tóm tắt
-- **Full‑stack mobile**: từ idea → UX → code (Flutter/React Native/Native) → backend nhẹ cho mobile → CI/CD → phát hành Store → quan trắc & A/B.
-- **Đa nền tảng**: iOS & Android; cross‑platform (Flutter, React Native) và native (Kotlin, Swift, SwiftUI, Jetpack).
-- **Ưu tiên chất lượng**: hiệu năng, ổn định, offline‑first, test tự động, crash‑free rate, DX tốt cho team.
+## 🚀 Summary
+- **Full-stack mobile**: from idea → UX → code (Flutter/React Native/Native) → lightweight backend for mobile → CI/CD → store release → monitoring & A/B testing.
+- **Cross-platform expertise**: iOS & Android; cross-platform (Flutter, React Native) and native (Kotlin, Swift, SwiftUI, Jetpack).
+- **Quality-driven**: performance, stability, offline-first, automated testing, crash-free rate, great DX for teams.
 
 ## 🧰 Tech Stack (Daily Driver)
 **Mobile**
 - Flutter (Dart), React Native (TypeScript), Kotlin (Android), Swift/SwiftUI (iOS)
 - UI/UX: Material 3, SwiftUI, Jetpack Compose (concept), Figma handoff
 
-**Backend cho Mobile**
+**Backend for Mobile**
 - Firebase (Auth/Firestore/Crashlytics/Functions/FCM), Supabase, Node.js (NestJS), .NET minimal APIs
-- API: REST/GraphQL, OAuth2/OIDC, WebSocket, gRPC (cơ bản)
+- API: REST/GraphQL, OAuth2/OIDC, WebSocket, basic gRPC
 
-**CI/CD & Chất lượng**
+**CI/CD & Quality**
 - GitHub Actions, Fastlane, Gradle, CocoaPods
 - Testing: Flutter test/Golden, Jest/React Testing Library, XCTest, JUnit
 - Monitoring: Crashlytics, Sentry, Analytics/Eventing
 
-**Khác**
-- Docker, Git, Clean Architecture, SOLID, DDD (ứng dụng phù hợp cho mobile), Feature flags, Remote config
+**Others**
+- Docker, Git, Clean Architecture, SOLID, DDD (adapted for mobile), Feature flags, Remote config
 
-## 🏗️ Dự án nổi bật
-<!-- 👉 TODO: thay link repo của bạn -->
+## 🏗️ Featured Projects
 - **Climb and Upgrade** (Flutter Flame, 2D idle/arcade)
-  - *Gameplay*: leo tầng + nâng cấp; tối ưu FPS, input, asset pipeline.
-  - *Stack*: Flutter Flame, Isar/Hive, Crashlytics, in‑app purchases.
-  - → Repo: https://github.com/<username>/climb-and-upgrade
+  - *Gameplay*: tower climbing + upgrade; optimized FPS, input, asset pipeline.
+  - *Stack*: Flutter Flame, Isar/Hive, Crashlytics, in-app purchases.
+  - → Repo: https://github.com/sontv299/climb-and-upgrade
 
 - **Auto Tower Defense** (Flutter)
-  - *Hệ thống nâng cấp và drop item*, tối ưu vòng đời game & save state; test logic core.
-  - → Repo: https://github.com/<username>/auto-tower-defense
+  - *Upgrade and item drop system*, optimized game lifecycle & save state; core logic tests.
+  - → Repo: https://github.com/sontv299/auto-tower-defense
 
-- **Mobile eKYC flows** (Demo)
-  - *Luồng CCCD/VNeID/NFC*, retry/resume, chống gián đoạn mạng, log chuẩn hoá.
+- **Mobile eKYC Flows** (Demo)
+  - *CCCD/VNeID/NFC flows*, retry/resume, network interruption handling, standardized logging.
   - *Stack*: Kotlin + Jetpack, SwiftUI, Flutter plugin, Firebase Functions.
-  - → Repo: https://github.com/<username>/ekyc-mobile-flows
+  - → Repo: https://github.com/sontv299/ekyc-mobile-flows
 
 - **Dynamic QR Integration** (Mobile + Backend)
-  - *QR động*, bảo toàn phiên, anti‑replay, audit trail; SDK nhẹ cho app.
-  - → Repo: https://github.com/<username>/mobile-dynamic-qr
+  - *Dynamic QR*, session preservation, anti-replay, audit trail; lightweight SDK for apps.
+  - → Repo: https://github.com/sontv299/mobile-dynamic-qr
 
-## 🧪 Triết lý phát triển
-- **Clean first**: kiến trúc gọn, module hoá, dễ test.
-- **Measure everything**: performance/analytics trước khi tối ưu.
-- **Automate**: CI/CD, codegen, lint, release pipeline.
+## 🧪 Development Philosophy
+- **Clean first**: concise architecture, modular, testable.
+- **Measure everything**: performance/analytics before optimization.
+- **Automate**: CI/CD, codegen, linting, release pipelines.
 
-## 📦 Templates mình hay dùng
+## 📦 My Common Templates
 - **Flutter App Template**: folder by feature, flavors (dev/stg/prod), DI + router + theme + localization.
 - **RN App Template**: TypeScript, modular navigation, RTK Query/React Query, E2E Detox.
-- **Fastlane + GitHub Actions**: build + sign + upload TestFlight/Play Console, changelog tự động.
+- **Fastlane + GitHub Actions**: build + sign + upload TestFlight/Play Console, automatic changelog.
 
-<!-- 👉 TODO: thay link gists/template -->
-→ Gists/Templates: https://github.com/<username>?tab=repositories&q=template
+→ Templates: https://github.com/sontv299?tab=repositories&q=template
 
 ## 🗺️ Roadmap & Open Source
-- [ ] Library **Offline‑First Sync** (Flutter & RN)
-- [ ] **Feature flag SDK** nhẹ cho mobile
-- [ ] **In‑App Review/Update helper** (Android/iOS)
-→ Mở issue/PR nếu bạn muốn đóng góp!
+- [ ] **Offline-First Sync** library (Flutter & RN)
+- [ ] **Lightweight Feature Flag SDK** for mobile
+- [ ] **In-App Review/Update helper** (Android/iOS)
+→ Open to issues/PRs if you want to contribute!
 
-## 📫 Liên hệ
-- Email: sontv299@gmail.com
+## 📫 Contact
+- Email: sontv299@example.com
 - LinkedIn: https://www.linkedin.com/in/sontv299-linkedin
-- Telegram: https://t.me/sontv299
+- Telegram: https://t.me/sontv299_telegram
 
 ---
 
-<!-- Các widget dưới đây là tuỳ chọn, bỏ nếu không thích -->
 <p align="center">
-  <!-- 👉 TODO: đổi <username> -->
-  <img src="https://github-readme-stats.vercel.app/api?username=<sontv299>&show_icons=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<sontv299>&layout=compact" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sontv299&show_icons=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sontv299&layout=compact" height="165" />
 </p>
