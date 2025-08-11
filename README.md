@@ -75,15 +75,15 @@
 → Mở issue/PR nếu bạn muốn đóng góp!
 
 ## 📫 Liên hệ
-- Email: your.email@example.com
-- LinkedIn: https://www.linkedin.com/in/your-linkedin
-- Telegram: https://t.me/your_telegram
+- Email: sontv299@gmail.com
+- LinkedIn: https://www.linkedin.com/in/sontv299-linkedin
+- Telegram: https://t.me/sontv299
 
 ---
 
 <!-- Các widget dưới đây là tuỳ chọn, bỏ nếu không thích -->
 <p align="center">
   <!-- 👉 TODO: đổi <username> -->
-  <img src="https://github-readme-stats.vercel.app/api?username=<username>&show_icons=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<username>&layout=compact" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=<sontv299>&show_icons=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<sontv299>&layout=compact" height="165" />
 </p>
